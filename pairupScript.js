@@ -6,7 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     emailjs.init({
         publicKey: 'H7mOFYYfBdQ4wI7Ty',
     });
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/main
     const storedData = localStorage.getItem('participantsLookup');
     const participantNames = JSON.parse(storedData);
     console.log(participantNames);

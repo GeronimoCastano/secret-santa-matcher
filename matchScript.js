@@ -89,6 +89,7 @@ const addParticipant = () => {
 
     generateMatchesButton.addEventListener('click', () => {
         const participantNames = storeParticipantsLookup();
+<<<<<<< HEAD
         if (Object.keys(participantNames).length === 0) {
             alert('Please add participants before generating matches.');
         } 
@@ -97,6 +98,12 @@ const addParticipant = () => {
         }
         else {
             window.location.href = 'pairup.html';
+=======
+        if (Object.keys(participantNames).length > 0) {
+            window.location.href = 'pairup.html';
+        } else {
+            alert('Please add participants before generating matches.');
+>>>>>>> origin/main
         }
     });
 
