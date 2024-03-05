@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Secret Santa Matcher</title>
+        <link rel="stylesheet" href="matchStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://www.svgrepo.com/show/522527/edit-3.svg">
+        <link href="https://www.svgrepo.com/show/513658/cross.svg">
+    </head>
+    <body>
+        <div class="box">
+            <div class="title">
+                <p>Enter the names of the participants</p>
+            </div>
+            <div class="input-box-container">
+                <input class="input-box" type="textbox" placeholder="Enter name here: " id="name-input">
+                <input class="input-box" type="textbox" placeholder="Enter Email here: " id="email-input">
+            </div> 
+            <div class="add-button" id="add-button">
+                <button>
+                    Add
+                </button>
+            </div>
+            <div class="names" id="participants-list">
+            </div>
+            <div class="buttons">
+                <a href="index.html">
+                    <button class="return-button" id="return-button">
+                        Back
+                    </button>
+                </a>
+                <button class="generate-match-button" id="generate-match-button">
+                    Generate Matches
+                </button>
+            </div>
+        </div>
+        <script src="matchScript.js"></script>
+    </body>
+</html>
