@@ -3,6 +3,9 @@
 ## About
 Secret Santa Matcher is a web-based application designed to organize Secret Santa gift exchanges effortlessly. This tool streamlines the process of pairing up participants, making it a fun and easy way to manage your holiday gift-giving traditions.
 
+## Link
+The web page is live and published at: https://geronimocastano.github.io/secret-santa-matcher/
+
 ## Motivation
 This project was born out of a desire to hone web development skills. As a practical application of HTML, CSS, and JavaScript, the Secret Santa Matcher serves not only as a useful tool for organizing gift exchanges but also as a testament to the learning journey in web structure, design, and interactive functionality.
 
